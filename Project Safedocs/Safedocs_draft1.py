@@ -76,8 +76,3 @@ def _copyfileobj_patched(fsrc, fdst, length=16*1024*1024):
         fdst.write(buf)
 shutil.copyfileobj = _copyfileobj_patched
 """
-
-
-
-
-
